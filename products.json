@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "name": "Black Forest",
+    "price": 18,
+    "tags":["cream_cake"],
+    "description": "Kirsch flavoured chocolate sponge layered with whipped cream and maraschino cherries and covered with chocolate shavings.",
+    "image": {
+      "small": "/img/cream_cakes/black-forest.jpg",
+      "large": "/img/cream_cakes/black-forest.jpg"
+    }
+  },
+   {
+    "id": 2,
+    "name": "White Forest",
+    "price": 18,
+    "tags":["cream_cake"],
+    "description": "Vanilla sponge layered with white chocolate ganache and frosted with cherries and white chocolate cigars.",
+    "image": {
+      "small": "/img/cream_cakes/white-forest.jpg",
+      "large": "/img/cream_cakes/white-forest.jpg"
+    }
+  },
+   {
+    "id": 3,
+    "name": "Hawaiian Delight",
+    "price": 18,
+    "tags":["cream_cake"],
+    "description": "Pineapple flavoured sponge layered with double whipped cream and chunks of pineapple.",
+    
+    "image": {
+      "small": "/img/cream_cakes/hawaiian-delight.jpg",
+      "large": "/img/cream_cakes/hawaiian-delight.jpg"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Mocha Gateau",
+    "price": 18,
+    "tags":["cream_cake"],
+    "description": "Mocha flavoured genoise sponge layered and frosted with rich coffee buttercream and decorated with toasted almond flakes.",
+    
+    "image": {
+      "small": "/img/cream_cakes/mocha-gateau.jpg",
+      "large": "/img/cream_cakes/mocha-gateau.jpg"
+    }
+  },  
+  {
+    "id": 5,
+    "name": "Coffee & Walnut Gateau",
+    "price": 18,
+    "tags":["cream_cake"],
+    "description": "Coffee flavoured cake layered and frosted with espresso-infused buttercream icing and decorated with walnut halves.",
+    
+    "image": {
+      "small": "/img/cream_cakes/coffee-walnut-gateau.jpg",
+      "large": "/img/cream_cakes/coffee-walnut-gateau.jpg"
+    }
+  },  
+  {
+    "id": 6,
+    "name": "Dark Chocolate Passion",
+    "price": 18,
+    "tags":["cream_cake"],
+    "description": "A delicious chocolate cake that is rich, moist and incredibly decadent. Chocolate lovers dream.",
+    
+    "image": {
+      "small": "/img/cream_cakes/dark-chocolate-passion.jpg",
+      "large": "/img/cream_cakes/dark-chocolate-passion.jpg"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Chocolate & Hazelnut",
+    "price": 18,
+    "tags":["cream_cake"],
+    "description": "Cognac flavoured chocolate & hazelnut sponge layered and frosted with hazelnut butter.",
+    
+    "image": {
+      "small": "/img/cream_cakes/chocolate-hazelnut.jpg",
+      "large": "/img/cream_cakes/chocolate-hazelnut.jpg"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Mandarin",
+    "price": 18,
+    "tags":["cream_cake"],
+    "description": "Orange flavoured sponge filled & frosted with mandarin cream and decorated with toasted nuts.",
+    
+    "image": {
+      "small": "/img/cream_cakes/mandarin.jpg",
+      "large": "/img/cream_cakes/mandarin.jpg"
+    }
+  },  
+   {
+    "id": 9,
+    "name": "Seasonal Fresh Fruit Gateau",
+    "price": 18,
+    "tags":["fruit_cake"],
+    "description": "Vanilla sponge filled with double whipped vanilla cream and your choice of seasonal fresh fruit.",
+    
+    "image": {
+      "small": "/img/fruit_cakes/seasonal-fresh-fruit-gateau.jpg",
+      "large": "/img/fruit_cakes/seasonal-fresh-fruit-gateau.jpg"
+    }
+  },      
+   {
+    "id": 10,
+    "name": "Forest Fruit Cake",
+    "price": 18,
+    "tags":["fruit_cake"],
+    "description": "Genoise sponge layered with berry mousse and topped with fruits of the forest.",
+    
+    "image": {
+      "small": "/img/fruit_cakes/forest-fruit-gateau.jpg",
+      "large": "/img/fruit_cakes/forest-fruit-gateau.jpg"
+    }
+  },      
+   {
+    "id": 11,
+    "name": "Double Chocolate Mousse",
+    "price": 20,
+    "tags":["mousse_cake"],
+    "description": "Dark chocolate genoise sponge layered with dark & white chocolate mousse and covered with chocolate genache.",
+    
+    "image": {
+      "small": "/img/mousse_cakes/double-chocolate-mousse.jpg",
+      "large": "/img/mousse_cakes/double-chocolate-mousse.jpg"
+    }
+  },      
+   {
+    "id": 12,
+    "name": "Strawberry Mousse",
+    "price": 20,
+    "tags":["mousse_cake"],
+    "description": "Light, tender and fluffy strawberry flavour mousse set on a vanilla sponge base. Decorated with fresh strawberries and layer of jelly.",
+    
+    "image": {
+      "small": "/img/mousse_cakes/strawberry-mousse.jpg",
+      "large": "/img/mousse_cakes/strawberry-mousse.jpg"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Chocolate Mousse",
+    "price": 20,
+    "tags":["mousse_cake"],
+    "description": "A luscious chocolate mousse on a rich chocolate sponge. It is exceedingly rich and very chocolatey.",
+    
+    "image": {
+      "small": "/img/mousse_cakes/chocolate-mousse.jpg",
+      "large": "/img/mousse_cakes/chocolate-mousse.jpg"
+    }
+  },      
+  {
+    "id": 14,
+    "name": "Alphonso Mousse",
+    "price": 20,
+    "tags":["mousse_cake"],
+    "description": "Mango lovers favourite!!! A creamy and fruity mousse cake packed with mango flavour.",
+    
+    "image": {
+      "small": "/img/mousse_cakes/alphonso-mousse.jpg",
+      "large": "/img/mousse_cakes/alphonso-mousse-mousse.jpg"
+    }
+  },      
+  {
+    "id": 15,
+    "name": "Mousse Au Citron",
+    "price": 20,
+    "tags":["mousse_cake"],
+    "description": "Rich, silky mousse brightened with tangy lemons set on a lemon flavoured sponge.",
+    
+    "image": {
+      "small": "/img/mousse_cakes/mousse-au-citron.jpg",
+      "large": "/img/mousse_cakes/mousse-au-citron.jpg"
+    }
+  },      
+  {
+    "id": 16,
+    "name": "Mint Chocolate Mousse",
+    "price": 20,
+    "tags":["mousse_cake"],
+    "description": "An incredibly rich and creamy chocolate mousse cake with the refreshing taste of mint...will spoil your sweet tooth!!!",
+    
+    "image": {
+      "small": "/img/mousse_cakes/mint-chocolate-mousse.jpg",
+      "large": "/img/mousse_cakes/mint-chocolate-mousse.jpg"
+    }
+  },      
+  {
+    "id": 17,
+    "name": "Banana & Nougatine Mousse",
+    "price": 20,
+    "tags":["mousse_cake"],
+    "description": "Luscious yet light and fluffy mousse naturally sweetened with banana and a hint of naugatine.",
+    
+    "image": {
+      "small": "/img/mousse_cakes/banana-nougatine-mousse.jpg",
+      "large": "/img/mousse_cakes/banana-nougatine-mousse.jpg"
+    }
+  },      
+  {
+    "id": 18,
+    "name": "Butterscotch Mousse",
+    "price": 20,
+    "tags":["mousse_cake"],
+    "description": "A light, fluffy, melt-in-the-mouth mousse cake with the heavenly flavour of butterscotch and crunchy caramelised almonds.",
+    
+    "image": {
+      "small": "/img/mousse_cakes/butterscotch-mousse.jpg",
+      "large": "/img/mousse_cakes/butterscotch-mousse.jpg"
+    }
+  },      
+  {
+    "id": 19,
+    "name": "Trio of Chocolate Mousse",
+    "price": 20,
+    "tags":["mousse_cake"],
+    "description": "Triple chocolate mousse. A treat for chocolate lovers!!! A trio of milk, dark & white chocolate combined in a delectable mousse cake.",
+    
+    "image": {
+      "small": "/img/mousse_cakes/trio-of-chocolate-mousse.jpg",
+      "large": "/img/mousse_cakes/trio-of-chocolate-mousse.jpg"
+    }
+  },      
+  {
+    "id": 20,
+    "name": "Cappuccino Truffle Mousse",
+    "price": 20,
+    "tags":["mousse_cake"],
+    "description": "Light and rich, sweet and creamy coffee flavoured mousse topped with coffee infused chocolate truffles.",
+    
+    "image": {
+      "small": "/img/mousse_cakes/cappuccino-truffle-mousse.jpg",
+      "large": "/img/mousse_cakes/cappuccino-truffle-mousse.jpg"
+    }
+  },      
+  {
+    "id": 21,
+    "name": "Mousse De Maracuya",
+    "price": 20,
+    "tags":["mousse_cake"],
+    "description": "A delicious tropical mousse made from passion fruit pulp on a crunchy biscuit base.",
+    
+    "image": {
+      "small": "/img/mousse_cakes/mousse-de-maracuya.jpg",
+      "large": "/img/mousse_cakes/mousse-de-maracuya.jpg"
+    }
+  }              
+]

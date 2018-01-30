@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kichi's Cakes | About</title>
+<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+</head>
+
+<body>
+<div id="main">
+	<div id="container">    
+
+      <div id="header">
+          <div id="tel">Call us on / 07835 684003<br>/ 07588 874760</div>
+           <div id="logo"></div>
+           <div id="menu">
+              <ul>
+                  <a href="index.html"><li>HOME</li></a>
+                  <a href="services.html"><li>SERVICES</li></a>
+                  <a href="gallery.html"><li>GALLERY</li></a>
+                  <li class="menu-gap"></li>
+                  <a href="about.html"><li class="active">ABOUT</li></a>
+                  <a href="contact.html"><li class="last">CONTACT</li></a>
+                  <div class="clear"></div>
+               </ul>
+           </div>
+           <div id="drappery"></div> 
+           <div id="menu-btn" onclick="Toggle_Menu()"></div>
+      </div>
+      
+      <div id="about-header"></div>
+
+       <div id="content">
+       		<div id="intro-text">
+            	<p>Our cake shop is based in Banbury, UK. We are your one stop shop in Banbury for freshly baked goodies, cakes and catering. At Kichis cakes we use only fresh and wholesome ingredients to provide you with nothing but the best.</p>
+				<p>We incorporate your individual needs to create the perfect cake you will not find anywhere else. We bake cakes for birthdays, weddings,
+office parties, anniversaries and special occasions. Our perfect desserts would complement any event of yours. We also cater for Sandwich buffets, Finger buffets and Tea breaks. We make custom shape cakes as well. We hope to grow with the inspiration our customers give us. Looking forward to serve you!</p>
+			</div>
+       
+       		<div class="line"></div>
+       
+       		<div id="about-vectors"></div>
+       
+      		<div id="caption-box"><h4>MAKE US PART OF YOUR CELEBRATION!</h4></div>
+            
+       	</div>
+        
+        
+    	<div id="footer">
+          <div id="footer1"><p>&copy; 2016 Kichi's Cakes. All rights reserved</p></div>
+          <div id="footer2"><p><a href="index.html">Home</a> <span class="divider">|</span> <a href="services.html">Services</a> <span class="divider">|</span> <a href="gallery.html">Gallery</a> <span class="divider">|</span> <a href="about.html">About</a> <span class="divider">|</span> <a href="contact.html">Contact</a></p></div>
+          <div id="footer3"><p>Follow us on Facebook</p></div>
+          <div class="clear"></div>
+    	</div>    
+       
+    </div>
+</div>
+
+<script>
+$( document ).ready(function() {
+    //window.setTimeout('goto_SliderDir(1)', 3000);
+	
+	//Burger Menu Activation
+	$(window).resize(function(){
+		if($(window).width() > 768){
+			$('#menu ul').css({'display':'block'});
+			menu=1;
+		}
+		else {
+			$('#menu ul').css({'display':'none'});
+			menu=0;
+		}
+	})
+	
+});
+
+
+menu=0;
+function Toggle_Menu() {
+	if(menu==0){
+		$('#menu ul').css({'display':'block'});
+		menu=1;
+	}
+	else{
+		$('#menu ul').css({'display':'none'});
+		menu=0;
+	}
+}
+
+</script>
+
+</body>
+</html>

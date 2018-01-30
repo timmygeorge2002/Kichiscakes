@@ -1,1 +1,209 @@
-<h1>hi!</h1>
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kichi's Cakes | Home</title>
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/slick.css" rel="stylesheet" type="text/css" />
+<link href="css/slick-theme.css" rel="stylesheet" type="text/css" />
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/slick.min.js"></script>
+<script src="js/slickme.js"></script>
+</head>
+
+<body>
+<div id="main">
+	<div id="container">
+    
+    	<div id="header">
+        	<div id="tel">Call us on / 07835 684003<br>/ 07588 874760</div>
+           <div id="logo"></div>
+           <div id="menu">
+              <ul>
+                <a href="index.html"><li class="active">HOME</li></a>
+                <a href="services.html"><li>SERVICES</li></a>
+                <a href="gallery.html"><li>GALLERY</li></a>
+                <li class="menu-gap"></li>
+                <a href="about.html"><li>ABOUT</li></a>
+                <a href="contact.html"><li class="last">CONTACT</li></a>
+                <div class="clear"></div>
+               </ul>
+           </div>
+           <div id="drappery"></div> 
+           <div id="menu-btn" onclick="Toggle_Menu()"></div>
+		</div>
+        
+       <div id="slider">
+            <div class="slick-slider">
+              <div class="slick-image-slide">
+                <div class="slide-wrap"> 
+                  <img src="img/slider/slide-pic1.png" alt="" />
+                </div>    
+              </div>            
+              <div class="slick-image-slide">
+                <div class="slide-wrap"> 
+                  <img src="img/slider/slide-pic2.png" alt="" />
+                </div>    
+              </div>
+              <div class="slick-image-slide" style="height:450px;">
+                <div class="slide-wrap" style="height:450px;"> 
+                  <img src="img/slider/slide-pic3.png" alt="" />
+                </div>    
+              </div>
+              <div class="slick-image-slide" style="height:450px;">
+                <div class="slide-wrap" style="height:450px;"> 
+                  <img src="img/slider/slide-pic4.png" alt="" />
+                </div>    
+              </div>
+              <div class="slick-image-slide" style="height:450px;">
+                <div class="slide-wrap" style="height:450px;"> 
+                  <img src="img/slider/slide-pic5.png" alt="" />
+                </div>    
+              </div>
+            </div>
+            <div id="slider-text">KICHI'S CAKES <br> WE DO WHAT WE DO BEST.</div>   
+            <!--<div id="pagi-wrapper">
+                  <div id="pagi-content">
+                    <div id="pagi1" class="pagi active" onclick="goto_SliderPos(1)"></div>
+                    <div id="pagi2" class="pagi" onclick="goto_SliderPos(2)"></div>
+                    <div id="pagi3" class="pagi" onclick="goto_SliderPos(3)"></div>
+                </div>
+            </div>
+            <div class="prev-btn" onclick="goto_SliderDir(-1)"></div>
+            <div class="next-btn" onclick="goto_SliderDir(+1)"></div>-->
+       </div>
+       
+       <div id="content">
+       		<div id="intro-text">
+            	<ul>
+                  <li>At Kichis Cakes, we provide quality cakes using only fresh and wholesome ingredients.</li>
+                  <li>We bake cakes for birthdays, weddings, office parties, anniversaries and special occasions.</li>
+                  <li>We provide the perfect desserts to complement any event.</li>
+                  <li>Our cakes are fresh to order and customized to your specifications, style and vision.</li>
+           	</ul>
+            </div>
+            <div id="models">
+            	 <div id="models-header"><b>VIEW OUR CAKE MODELS & PRICES</b></div>
+                <div id="model1">
+                	<div class="pic">
+                  	<div class="model-arrow"></div>
+                  </div>
+                  <div class="info">
+                  	<h5>CREAM CAKES</h5>
+                    	<p class="text-small">Flavoured sponge cake layered with fresh whipped cream. Prices start from &pound18 onwards.</p>
+                      <a id="cream-cake-view" href="#"><div class="info-btn">VIEW</div></a>
+                  </div>
+                </div>
+                <div id="model2">
+                	<div class="pic">
+                  	<div class="model-arrow"></div>
+                  </div>
+                  <div class="info">
+                  	<h5>FRUIT CAKES</h5>
+                    	<p class="text-small">The finest of fruits with fresh cream layered on flavoured sponge cake. Prices start from &pound18 onwards.</p>
+                      <a id="fruit-cake-view" href="#"><div class="info-btn">VIEW</div></a>
+                  </div>
+                </div>
+                <div id="model3">
+                	<div class="pic">
+                  	<div class="model-arrow"></div>
+                  </div>
+                  <div class="info">
+                  	<h5>MOUSSE CAKES</h5>
+                    	<p class="text-small">Our rich,light and fluffy mousse cakes will make you want more. Prices start from &pound20 onwards.</p>
+                      <a id="mousse-cake-view"  href="#"><div class="info-btn">VIEW</div></a>
+                  </div>
+                </div>
+                <div id="model4">
+                	<div class="pic">
+                  	<div class="model-arrow"></div>
+                  </div>
+                  <div class="info">
+                  	<h5>ALL CAKES</h5>
+                    	<p class="text-small">We have a wide variety of cakes to choose from. Our delicious cakes will be a real treat for your taste buds. </p>
+                      <a id="all-cake-view"  href="#"><div class="info-btn">VIEW</div></a>
+                  </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            
+            <div id="caption-box"><h4>HAVE A CAKE DAY!</h4></div>
+       </div>
+       
+       <div id="footer">
+            <div id="footer1"><p>&copy; 2016 Kichi's Cakes. All rights reserved</p></div>
+            <div id="footer2"><p><a href="#">Home</a> <span class="divider">|</span> <a href="services.html">Services</a> <span class="divider">|</span> <a href="gallery.html">Gallery</a> <span class="divider">|</span> <a href="about.html">About</a> <span class="divider">|</span> <a href="contact.html">Contact</a></p></div>
+            <div id="footer3"><p>Follow us on Facebook</p></div>
+            <div class="clear"></div>
+       </div>
+       
+    </div>
+</div>
+
+<script>
+$( document ).ready(function() {
+    //window.setTimeout('goto_SliderDir(1)', 3000);
+	
+	//Burger Menu Activation
+	$(window).resize(function(){
+		if($(window).width() > 768){
+			$('#menu ul').css({'display':'block'});
+			menu=1;
+		}
+		else {
+			$('#menu ul').css({'display':'none'});
+			menu=0;
+		}
+	})
+	
+});
+
+
+
+menu=0;
+function Toggle_Menu() {
+	if(menu==0){
+		$('#menu ul').css({'display':'block'});
+		menu=1;
+	}
+	else{
+		$('#menu ul').css({'display':'none'});
+		menu=0;
+	}
+}
+
+
+
+sliderPos = 1;
+
+function goto_SliderDir(sliderDir){
+	if(sliderDir == 1){ sliderPos++; }
+	else { sliderPos--; }
+	goto_Slider()
+}
+
+function goto_SliderPos(sliderNum){
+	sliderPos = sliderNum;
+	goto_Slider()
+}
+
+function goto_Slider(){
+	for(i=1;i<=3;i++){ $('#pagi'+i).removeClass('active')}
+	$('#pagi'+sliderPos).addClass('active');
+	$('#slider-content').animate({'left':'-'+((sliderPos-1)*100)+'%'}, 500);
+	$('#slider .prev-btn').show();
+	$('#slider .next-btn').show();
+	if(sliderPos == 3){ $('#slider .next-btn').hide();}
+	if(sliderPos == 1){ $('#slider .prev-btn').hide();}
+	
+	//window.setTimeout('goto_SliderDir(1)', 3000);
+}
+
+
+</script>
+
+</body>
+</html>

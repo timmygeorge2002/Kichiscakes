@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kichi's Cakes | Services</title>
+<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+</head>
+
+<body>
+<div id="main">
+	<div id="container">    
+
+      <div id="header">
+          <div id="tel">Call us on / 07835 684003<br>/ 07588 874760</div>
+           <div id="logo"></div>
+           <div id="menu">
+              <ul>
+                  <a href="index.html"><li>HOME</li></a>
+                  <a href="services.html"><li class="active">SERVICES</li></a>
+                  <a href="gallery.html"><li>GALLERY</li></a>
+                  <li class="menu-gap"></li>
+                  <a href="about.html"><li>ABOUT</li></a>
+                  <a href="contact.html"><li class="last">CONTACT</li></a>
+                  <div class="clear"></div>
+               </ul>
+           </div>
+           <div id="drappery"></div> 
+           <div id="menu-btn" onclick="Toggle_Menu()"></div>
+      </div>
+      
+      
+      <div id="services-header"><img src="img/services-header.jpg" alt=""/></div>
+  
+   
+      <div id="content">
+      
+           <div id="intro-text">
+              <p>At Kichis cakes, every celebration can be catered for. Everything we make is from  quality ingredients and fresh to order. All our cakes can be customized to suit your needs.</p> 
+             <p>We bake cakes for birthdays, weddings, office parties, anniversaries and special occasions. We also cater for Sandwich buffets, Finger buffets and Tea breaks. We make custom shape cakes as well.</p>
+             <p>If you have an idea, we can turn it into a cake reality!</p>
+           </div>
+      
+   
+      		<div class="line"></div>
+
+          <div id="services-pic-container">
+              <div id="services-pic1"></div>
+              <div id="services-pic2"></div>
+              <div id="services-pic3"></div>
+              <div class="clear"></div>
+          </div>
+      
+      		<div id="caption-box"><h4>WE PROVIDE CAKES FOR EVERY OCCASION</h4></div>
+      
+   		</div>  
+             
+		<div id="footer">
+          <div id="footer1"><p>&copy; 2016 Kichi's Cakes. All rights reserved</p></div>
+          <div id="footer2"><p><a href="index.html">Home</a> <span class="divider">|</span> <a href="#">Services</a> <span class="divider">|</span> <a href="gallery.html">Gallery</a> <span class="divider">|</span> <a href="about.html">About</a> <span class="divider">|</span> <a href="contact.html">Contact</a></p></div>
+          <div id="footer3"><p>Follow us on Facebook</p></div>
+          <div class="clear"></div>
+    	</div>
+        
+  </div>
+</div>
+
+<script>
+$( document ).ready(function() {
+    //window.setTimeout('goto_SliderDir(1)', 3000);
+	
+	//Burger Menu Activation
+	$(window).resize(function(){
+		if($(window).width() > 768){
+			$('#menu ul').css({'display':'block'});
+			menu=1;
+		}
+		else {
+			$('#menu ul').css({'display':'none'});
+			menu=0;
+		}
+	})
+	
+});
+
+
+menu=0;
+function Toggle_Menu() {
+	if(menu==0){
+		$('#menu ul').css({'display':'block'});
+		menu=1;
+	}
+	else{
+		$('#menu ul').css({'display':'none'});
+		menu=0;
+	}
+}
+
+</script>
+
+</body>
+</html>

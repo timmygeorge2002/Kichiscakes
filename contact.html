@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kichi's Cakes | Contact</title>
+<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+</head>
+
+<body>
+<div id="main">
+	<div id="container">    
+
+      <div id="header">
+          <div id="tel">Call us on / 07835 684003<br>/ 07588 874760</div>
+           <div id="logo"></div>
+           <div id="menu">
+              <ul>
+                  <a href="index.html"><li>HOME</li></a>
+                  <a href="services.html"><li>SERVICES</li></a>
+                  <a href="gallery.html"><li>GALLERY</li></a>
+                  <li class="menu-gap"></li>
+                  <a href="about.html"><li>ABOUT</li></a>
+                  <a href="contact.html"><li class="last active">CONTACT</li></a>
+                  <div class="clear"></div>
+               </ul>
+           </div>
+           <div id="drappery"></div> 
+           <div id="menu-btn" onclick="Toggle_Menu()"></div>
+      </div>
+
+
+      <div id="contact-bg">
+          <div class="contact-info">    
+				<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script><div style="overflow:hidden;height:400px;width:100%;"><div id="gmap_canvas" style="height:400px;width:100%;"><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.embedgooglemap.net" id="get-map-data">embed google map</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(52.0723117,-1.3504480999999942),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(52.0723117, -1.3504480999999942)});infowindow = new google.maps.InfoWindow({content:"<b>Kichi's Cakes</b><br/> Banbury UK" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script></div>    
+      	   </div>
+	   </div>
+
+      <div id="content">
+      		<div id="caption-box"><h4>We Would Love To See And Hear From You!</h4></div>
+            
+          <p class="contact-line-header"><b>Main Address:</b><br>
+          Banbury<br>
+          UK</p>
+          
+          <p class="contact-line-header"><b>Store Hours:</b><br>
+          Mon-Fri 8:30-19:00<br>Sat 8:30-18:00</p>
+          
+          <p class="contact-line-header"><b>Phone:</b><br>
+          +44-7835 684003<br>
+          +44-7588 874760</b></p>
+          
+          <p><b>Email:</b><br>
+          <a href="mailto:kichiscakes@gmail.com">kichiscakes@gmail.com</a></p>
+      </div> 
+
+          
+    <div id="footer">
+          <div id="footer1"><p>&copy; 2016 Kichi's Cakes. All rights reserved</p></div>
+          <div id="footer2"><p><a href="../index.html">Home</a> <span class="divider">|</span> <a href="services.html">Services</a> <span class="divider">|</span> <a href="gallery.html">Gallery</a> <span class="divider">|</span> <a href="about.html">About</a> <span class="divider">|</span> <a href="#">Contact</a></p></div>
+          <div id="footer3"><p>Follow us on Facebook</p></div>
+          <div class="clear"></div>
+    </div> 
+            
+  </div>
+</div>
+
+<script>
+$( document ).ready(function() {
+    //window.setTimeout('goto_SliderDir(1)', 3000);
+	
+	//Burger Menu Activation
+	$(window).resize(function(){
+		if($(window).width() > 768){
+			$('#menu ul').css({'display':'block'});
+			menu=1;
+		}
+		else {
+			$('#menu ul').css({'display':'none'});
+			menu=0;
+		}
+	})
+	
+});
+
+
+menu=0;
+function Toggle_Menu() {
+	if(menu==0){
+		$('#menu ul').css({'display':'block'});
+		menu=1;
+	}
+	else{
+		$('#menu ul').css({'display':'none'});
+		menu=0;
+	}
+}
+
+</script>
+
+</body>
+</html>
